@@ -31,6 +31,6 @@ class testClass
         System.out.println("[Default Constrcutor] My roll name is "+obj1.rollno+" and my name is "+obj1.name+"\n");
         System.out.println("[Parameterized Constructor] My roll name is "+obj2.rollno+" and my name is "+obj2.name+"\n");
 
-        myClass obj3=new myClass(123,"Sumit","At. Po. Benwadi, Tal. Karjat, Dist. Ahmednagar");
+        new myClass(123,"Sumit","At. Po. Benwadi, Tal. Karjat, Dist. Ahmednagar");
     }
 }
